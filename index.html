@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<htlm lang="it-IT">
+
+  <head>
+    <meta charset="utf-8">
+    <title>MOTOMARKET srl - Vendita di motocicli e ricambi</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!--Carico un file css di fonts o icons from a webpage inserendolo come un normale foglio.css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox({
+          openEffect: 'fade',
+          prevEffect: 'none',
+          nextEffect: 'none',
+          maxWidth: 800,
+          maxHeight: 600,
+          fitToView: false,
+          width: '70%',
+          height: '70%'
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function() {
+        $(window).load(function() {
+          $(".homenav").animate({
+            marginLeft: '74%'
+          }, 1500);
+        });
+      });
+    </script>
+
+  </head>
+
+  <body>
+    <header class="mainpage">
+      <nav class="navbar">
+        <div class="homenav">
+          <a href="index.htlm"><img src="photos/logo.jpg" alt="logo" style="height:60px"></a>
+        </div>
+        <div class="menunav">
+          <a href="prodotti.html"><b>Prodotti</b></a>
+          <a href="ditte.html"><b>Ditte</b></a>
+          <a href="contatti.html"><b>Contatti</b></a>
+        </div>
+      </nav>
+
+      <div class="transpBox">
+        <div class="textmainpage">
+          <h1>Motomarket Srl</h1>
+          <p>Venite a trovarci nel nostro negozio oppure guardate tutte le nostre offerte comodamente da casa vostra su:</p>
+          <div class="socialLink">
+            <a href="https://impresapiu.subito.it/shops/3248-motomarket-srl" target="_blank">
+            <img src="photos/logo-subitoq.png" alt="subito.it" style="width:50px;height:50px"/>
+          </a>
+            <a href="https://www.kijiji.it/altri-annunci-utente/motomarket-srl-10523021" target="_blank">
+            <img src="photos/logo-kijiji.png" alt="kijiji.it" style="width:50px;height:50px"/>
+          </a>
+            <a href="https://www.facebook.com/motomarket.srl" target="_blank">
+            <img src="photos/logo-facebook.png" alt="facebookpage" style="width:50px;height:50px"/>
+          </a>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="intropage">
+      <div class="introtext">
+        <h2 class="headerDouble"><span>Chi siamo</span></h2>
+        <p><b>Azienda nata nel 1986 dall'intraprendenza di tre giovani ragazzi. Per oltre 10 anni è rimasta nella vecchia sede di San Fior lungo la Pontebbana,
+        poi la decisione di acquistare uno stabile più grande e funzionale a San Vendemiano, nella periferia di Conegliano.</b></p>
+        <p><b>Merito delle capacità dei tre titolari, l'azienda dopo trent'anni è ancora capace di soddisfare le esigenza del mercato.</b></p>
+        <p><b>Da qualche anno ha iniziato a sviluppare una rete di vendite online soprattutto di ricambi di moto, ciclomotori e scooter vintage. Si possono trovare ricambi di molti ciclomotori ormai quasi scomparsi.
+        La competenza, la serietà e la disponibilità sono le principali caratteristiche di questi non più ragazzi.</b></p>
+      </div>
+    </section>
+
+    <section class="servicespage">
+      <h2>Servizi</h2>
+      <div class="containerservices">
+        <div class="services">
+          <a href="motocicli.html">  <i class="material-icons">motorcycle</i></a>
+          <h3><b>Motocicli</b></h3>
+        </div>
+        <div class="services">
+          <a href="concessionarie.html">  <i class="material-icons">store</i></a>
+          <h3><b>Concessionarie</b></h3>
+        </div>
+        <div class="services">
+          <a href="ricambieacessori.html">  <i class="material-icons">build</i></a>
+          <h3><b>Ricambi e accessori</b></h3>
+        </div>
+        <div class="services">
+          <a href="ditte.html">  <i class="material-icons">grade</i></a>
+          <h3><b>Ditte</b></h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallerypage">
+      <h2>Il nostro negozio</h2>
+      <div class="gallery">
+        <div class="photosingallery">
+          <a class="fancybox" rel="group" href="photos/negozio/1.jpg"><img src="photos/negozio/1.jpg"
+            alt="Negozio_esterno" style="width:360px;height:270px">
+          </a>
+        </div>
+        <div class="photosingallery">
+          <a class="fancybox" rel="group" href="photos/negozio/7.jpg"><img src="photos/negozio/7.jpg" alt="Negozio_interno" style="width:360px;height:270px">
+          </a>
+        </div>
+        <div class="photosingallery">
+          <a class="fancybox" rel="group" href="photos/negozio/3.jpg"><img src="photos/negozio/3.jpg" alt="Negozio_interno" style="width:360px;height:270px">
+          </a>
+        </div>
+        <div class="photosingallery">
+          <a class="fancybox" rel="group" href="photos/negozio/4.jpg"><img src="photos/negozio/4.jpg" alt="Negozio_interno" style="width:360px;height:270px">
+          </a>
+        </div>
+        <div class="photosingallery">
+          <a class="fancybox" rel="group" href="photos/negozio/5.jpg"><img src="photos/negozio/5.jpg" alt="Negozio_interno" style="width:360px;height:270px">
+          </a>
+        </div>
+        <div class="photosingallery">
+          <a class="fancybox" rel="group" href="photos/negozio/6.jpg"><img src="photos/negozio/6.jpg" alt="Negozio_interno" style="width:360px;height:270px">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contatti">
+      <h2>Dove siamo</h2>
+      <div class="address">
+        <p><i class="material-icons" style="font-size:25px;color:black">room</i>Vicolo Cadore 4 San Vendemiano, TV</p>
+        <i class="material-icons" style="font-size:25px;color:black">phone</i><a href="tel:+39 0438 402917">+39 0438 402917</a>
+        <p><i class="material-icons" style="font-size:25px;color:black">schedule</i>Lunedi - Venerdi: 8:30 - 12:30 e 15:00 - 19:00</p>
+        <p><i class="material-icons" style="font-size:25px;color:black">schedule</i>Sabato: 8:30 - 12:30</p>
+        <i class="material-icons" style="font-size:25px;color:black">email</i><a href="mailto:motomarket@tin.it?subject=Informazioni">motomarket@tin.it</a>
+      </div>
+
+      <div id="map">
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeANZm4KC1KrbgOVT28zGiCvUJcu7uY2U&callback=initMap">
+        </script>
+      </div>
+    </section>
+  </body>
+
+  <footer>
+    <p>Copyright Motomarket Srl</p>
+  </footer>
+
+
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: 45.900793,
+        lng: 12.331590
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 18,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+
+</htlm>
